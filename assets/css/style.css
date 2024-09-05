@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Quicksand", sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(111, 191, 194);
+}
+
+section {
+    max-width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: cadetblue;
+    box-shadow: 1rem 1rem 1rem 1rem #dd525233;
+}
+
+section h1 {
+    text-align: center;
+    margin: 1rem;
+}
+
+.rows {
+    display: flex;
+    margin: 0.5rem;
+}
+
+.rows p {
+    width: 11rem;
+}
+
+.submit,
+p,
+label,
+h1 {
+    cursor: pointer;
+}
+
+.left {
+    margin-left: 4.5rem;
+}
+
+.right {
+    margin-left: 3rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem;
+}
+
+form input {
+    width: 60%;
+    margin: 0.3rem;
+    outline: none;
+}
